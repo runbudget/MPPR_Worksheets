@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 1407740428}
   - component: {fileID: 1407740427}
   - component: {fileID: 1407740432}
+  - component: {fileID: 1407740433}
   m_Layer: 0
   m_Name: InterpolatedObject
   m_TagString: Untagged
@@ -374,9 +375,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407740426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 37cc9d3e21ea7fb40a64a9e496503a20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 435980073}
+  pointB: {fileID: 2114147922}
+  duration: 2
+--- !u!114 &1407740433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1407740426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9392a3151234fb84f8cc28be47047096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pointA: {fileID: 435980073}
