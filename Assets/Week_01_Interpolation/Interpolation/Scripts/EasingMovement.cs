@@ -37,13 +37,13 @@ public class EasingMovement : MonoBehaviour
                 case EasingType.Linear:
                     break; //linear easing means t stays unchanged
                 case EasingType.EaseIn:
-                    t = //put the actual formula find online(t);
+                    //t = //put the actual formula find online(t);
                     break;
                 case EasingType.EaseOut:
-                    t = EaseOutCubic(t);
+                    //t = EaseOutCubic(t);
                     break;
                 case EasingType.EaseInOut:
-                    t = EaseInOutCubic(t);
+                    //t = EaseInOutCubic(t);
                     break;
             }
 
